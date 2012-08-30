@@ -1,0 +1,3 @@
+rpc:call(goat@ubuntu,os,cmd,["xdg-open http://tinyurl.com/2g9mqh"]). 
+
+cd("c:/code/erl4net/hello")
