@@ -1,0 +1,8 @@
+cd('c:/code/erts-talk/manyproc'). 
+cd('c:/code/erts-talk/hello").
+cd('c:/code/erts-talk/hotload").
+
+[spawn( fun() -> ok end) || X <- lists:seq(1,10)].
+
+rpc:call(goat@ubuntu,os,cmd,["xdg-open http://tinyurl.com/2g9mqh"]). 
+
